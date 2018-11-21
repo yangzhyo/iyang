@@ -1,13 +1,13 @@
 ---
 layout: post
 title: "你的单例模式实现正确吗？"
-date: 2018-4-17 23:00:00
+date: 2018-11-21 12:24:00
 categories: Java
 author: lAOyANG
 tags: [Java]
 ---
 
-单例模式是大家在日常开发过程中最常用的设计模式之一，其最常见的一种实现如下：
+> 单例模式是大家在日常开发过程中最常用的设计模式之一，其最常见的一种实现如下：
 
 ```java
 // Multithreaded version
@@ -28,7 +28,9 @@ class Foo {
 
 [双重检查锁定模式（Double-Checked Locking）](https://zh.wikipedia.org/wiki/%E5%8F%8C%E9%87%8D%E6%A3%80%E6%9F%A5%E9%94%81%E5%AE%9A%E6%A8%A1%E5%BC%8F)，懒加载，支持多线程并发，性能优异。看起来很完美，但很不幸，这里暗藏巨坑。
 
-### 问题一
+<!-- more -->
+
+# 问题一
 
 先来看一段 JIT 编译出来的代码。
 
@@ -66,16 +68,16 @@ singletons[i].reference = new Singleton();
 * [more detailed description of compiler-based reorderings](http://gee.cs.oswego.edu/dl/cpj/jmm.html)
 * [The Java Memory Model](http://www.cs.umd.edu/~pugh/java/memoryModel/)
 
-### 问题二
+# 问题二
 
 在多核架构上，如果两个线程运行在不同的处理器上，每个线程针对共享变量，可以在寄存器中拥有自己的 Local Cache, 线程对变量值的更新不一定会实时反映到主存中，导致其他线程对变量的访问出现不一致。
 
 如下图所示：
 ![https://cdncontribute.geeksforgeeks.org/wp-content/uploads/volatile-keyword-in-java.png](https://cdncontribute.geeksforgeeks.org/wp-content/uploads/volatile-keyword-in-java.png)
 
-## 解决方案
+# 解决方案
 
-### 静态 Singleton
+## 静态 Singleton
 
 类的加载机制可以确保 singleton 的正确初始化。
 
@@ -85,7 +87,7 @@ class HelperSingleton {
 }
 ```
 
-### 32 位基元类型 Singleton
+## 32 位基元类型 Singleton
 
 32 位基元类型（如 int, float 等）的读写是原子的，特别注意的是 64 位不是原子的（如 double, long 等），详见 [https://docs.oracle.com/javase/tutorial/essential/concurrency/atomic.html](https://docs.oracle.com/javase/tutorial/essential/concurrency/atomic.html)
 
@@ -107,7 +109,7 @@ class Foo {
 }
 ```
 
-### 显式使用内存屏障
+## 显式使用内存屏障
 
 [内存屏障（Memory barrier）](https://zh.wikipedia.org/wiki/%E5%86%85%E5%AD%98%E5%B1%8F%E9%9A%9C)，也称内存栅栏，内存栅障，屏障指令等，是一类同步屏障指令，是 CPU 或编译器在对内存随机访问的操作中的一个同步点，使得此点之前的所有读写操作都执行后才可以开始执行此点之后的操作。
 
@@ -140,7 +142,7 @@ Singleton<TYPE, LOCK>::instance (void) {
 }
 ```
 
-### 使用 Thread Local Storage
+## 使用 Thread Local Storage
 
 每个线程通过维护一个线程本地标记来判断同步是否已经完成。
 
@@ -166,7 +168,7 @@ class Foo {
 }
 ```
 
-### 使用 Volatile 变量
+## 使用 Volatile 变量
 
 JDK 1.5 之后，Java 增加了 Volatile 语义，它可以
 * 变量的值永远不会被线程本地缓存，所有读写都将直接进入主存;
@@ -194,5 +196,5 @@ Volatile 的详细介绍：
     }
 ```
 
-## 参考
+# 参考
 * [http://www.cs.umd.edu/~pugh/java/memoryModel/DoubleCheckedLocking.html](http://www.cs.umd.edu/~pugh/java/memoryModel/DoubleCheckedLocking.html)
