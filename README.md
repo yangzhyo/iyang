@@ -1,4 +1,4 @@
-Source code for my personal site [yangzhiyong.com](yangzhiyong.com)
+Source code for my personal site [iya.ng](https://iya.ng)
 
 # Blog Build System
 

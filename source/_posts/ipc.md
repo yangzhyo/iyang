@@ -2,9 +2,9 @@
 layout: post
 title: "进程间通信的解决方案"
 date: 2017-10-31 16:21:00
-categories: JAVA
+categories: Java
 author: lAOyANG
-tags: [JAVA,IPC]
+tags: [Java,IPC]
 ---
 
 > 项目中经常会涉及到进程间通信（[IPC](https://en.wikipedia.org/wiki/Inter-process_communication)，Inter-Process Communication）的问题，比如一个任务调度器，对若干个 worker 进行调度和控制。想想，这样的系统模型是不是很多？PHP-fpm，nginx，各类 Application 容器，各类分布式系统……，笔者最近就在做一个类似的项目，需要通过调度器向各个 worker 发送工作指令，并收集从各 worker 反馈回来的信息。那该如何实现呢？
