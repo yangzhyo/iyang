@@ -2,7 +2,7 @@
 layout: post
 title: "加入Visual Studio Dev Essentials计划"
 date: 2016-02-24 00:10:00
-categories: .net
+categories: .Net
 author: lAOyANG
 tags: [Visual Studio]
 ---
