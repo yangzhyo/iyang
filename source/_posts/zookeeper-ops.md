@@ -6,7 +6,7 @@ categories: 经验总结
 tags: [运维,ZooKeeper]
 ---
 
-> 项目运维的原因，需要手动对线上 [ZooKeeper](https://zookeeper.apache.org/) 的部分节点进行修改，设置一串预置的 JSON 字符串。看似很简单的一件事，却着实让我折腾了一番，写一篇记录一下。
+> 项目运维的原因，需要人肉对线上 [ZooKeeper](https://zookeeper.apache.org/) 的部分节点进行修改，设置一串预置的 JSON 字符串。看似很简单的一件事，却着实让我折腾了一番，写一篇记录一下。
 
 <!-- more -->
 
