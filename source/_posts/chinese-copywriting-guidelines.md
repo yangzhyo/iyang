@@ -3,7 +3,6 @@ layout: post
 title: "中文文案排版指北"
 date: 2017-05-01 15:36:00
 categories: Other
-author: lAOyANG
 tags: [写作]
 ---
 

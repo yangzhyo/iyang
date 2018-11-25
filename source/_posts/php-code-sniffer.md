@@ -3,7 +3,6 @@ layout: post
 title: "利用 Code Sniffer 检查 PHP 代码规范"
 date: 2017-06-11 15:21:00
 categories: PHP
-author: lAOyANG
 tags: [PHP,Coding Standard]
 ---
 

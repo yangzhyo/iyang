@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: lAO yANG'S bLOG
-subtitle:
+title: Yzy.blog
+subtitle: 保持简单
 description:
 keywords:
-author: lAO yANG
+author: Yzy
 language: zh-CN
 timezone: Asia/Chongqing
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yangzhiyong.com
+url: https://iya.ng
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:

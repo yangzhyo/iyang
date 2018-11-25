@@ -3,7 +3,6 @@ layout: post
 title: "Blog基于Hexo重建"
 date: 2018-4-17 14:20:00
 categories: 前端技术
-author: lAOyANG
 tags: [前端,Hexo]
 ---
 

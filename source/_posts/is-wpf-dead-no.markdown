@@ -3,7 +3,6 @@ layout: post
 title:  "WPF已死？-- No!"
 date:   2015-03-23 23:09:00
 categories: .Net
-author: lAOyANG
 tags : [WPF]
 ---
 

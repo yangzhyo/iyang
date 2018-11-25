@@ -3,7 +3,6 @@ layout: post
 title: "ZooKeeper运维之命令行接口&Rest接口"
 date: 2018-4-17 23:00:00
 categories: 运维
-author: lAOyANG
 tags: [运维,ZooKeeper]
 ---
 
