@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "ZooKeeper运维之命令行接口&Rest接口"
+title: "ZooKeeper 运维之命令行接口 & Rest 接口"
 date: 2018-4-17 23:00:00
-categories: 运维
+categories: 经验总结
 tags: [运维,ZooKeeper]
 ---
 
-> 项目运维的原因，需要手动对线上 [ZooKeeper](https://zookeeper.apache.org/) 的部分节点进行修改，设置一串预置的JSON字符串。看似很简单的一件事，却着实让我折腾了一番，写一篇记录一下。
+> 项目运维的原因，需要手动对线上 [ZooKeeper](https://zookeeper.apache.org/) 的部分节点进行修改，设置一串预置的 JSON 字符串。看似很简单的一件事，却着实让我折腾了一番，写一篇记录一下。
 
 <!-- more -->
 
@@ -129,7 +129,7 @@ ZooKeeper -server host:port cmd args
 
 基于以上结论，可以确定无法支持参数中同时包含空格、单引号、双引号。
 
-[ZooKeeper源码](https://github.com/apache/zookeeper)
+[ZooKeeper 源码](https://github.com/apache/zookeeper)
 
 # ZooKeeper Rest API
 

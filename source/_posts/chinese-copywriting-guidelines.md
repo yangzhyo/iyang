@@ -2,7 +2,7 @@
 layout: post
 title: "中文文案排版指北"
 date: 2017-05-01 15:36:00
-categories: Other
+categories: 杂谈
 tags: [写作]
 ---
 

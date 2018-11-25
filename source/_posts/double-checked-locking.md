@@ -2,7 +2,7 @@
 layout: post
 title: "你的单例模式实现正确吗？"
 date: 2018-11-21 12:24:00
-categories: Java
+categories: 技术研究
 tags: [Java]
 ---
 

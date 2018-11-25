@@ -2,7 +2,7 @@
 layout: post
 title:  "老杨的博客1.0发布"
 date:   2015-02-11 23:28:00
-categories: 前端技术
+categories: 瞎折腾
 tags : [Amaze UI,Jekyll,前端]
 ---
 

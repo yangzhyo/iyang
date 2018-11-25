@@ -2,7 +2,7 @@
 layout: post
 title: "进程间通信的解决方案"
 date: 2017-10-31 16:21:00
-categories: Java
+categories: 技术研究
 tags: [Java,IPC]
 ---
 
