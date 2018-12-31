@@ -2,7 +2,7 @@
 layout: post
 title:  "把博客前端换成了Amaze UI"
 date:   2015-02-02 23:08:00
-categories: 瞎折腾
+categories: 折腾
 tags : [Amaze UI,前端]
 ---
 

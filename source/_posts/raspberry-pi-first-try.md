@@ -2,7 +2,7 @@
 layout: post
 title: "树莓派之初见"
 date: 2016-05-02 18:18:00
-categories: 瞎折腾
+categories: 折腾
 tags: [Raspberry Pi, Raspbian]
 ---
 

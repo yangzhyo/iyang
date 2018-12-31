@@ -2,7 +2,7 @@
 layout: post
 title: "折腾 macOS 的 Terminal 环境"
 date: 2017-05-30 10:25:00
-categories: 瞎折腾
+categories: 折腾
 tags: [macOS]
 ---
 

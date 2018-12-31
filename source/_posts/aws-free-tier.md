@@ -2,7 +2,7 @@
 layout: post
 title: "AWS免费套餐计划"
 date: 2016-02-24 22:46:00
-categories: 瞎折腾
+categories: 折腾
 tags: [AWS,VPS,Cloud]
 ---
 
