@@ -13,7 +13,7 @@ tags: [Instagram]
 
 # Instagram API Platform
 
-第一个能想到的办法是看看 Instagram Open API，于是通过官网进入了 [https://www.instagram.com/developer/](https://www.instagram.com/developer/), 看到老版的 API Platform 已经关闭了，全部迁移到 [Facebook 图谱 API](https://developers.facebook.com/docs/graph-api?locale=zh_CN) 的子项目 [Instagram Graph API](https://developers.facebook.com/products/instagram/)
+第一个能想到的办法是看看 [Instagram Open API](https://www.instagram.com/developer/)，但官宣老版的 API Platform 已经关闭了，全部迁移到 [Facebook 图谱 API](https://developers.facebook.com/docs/graph-api?locale=zh_CN) 的子项目 [Instagram Graph API](https://developers.facebook.com/products/instagram/)
 
 ![https://i.imgur.com/FTASMl6.png](https://i.imgur.com/FTASMl6.png)
 
@@ -76,13 +76,14 @@ instagram.bind.InstagramAPIError: (400) APINotAllowedError-This endpoint has bee
 
 # Instagram Private API
 
-API Platform 关闭以后，有网友通过逆向工程公开了 Instagram Private API, 并提供了 SDK, 列举几个 Github Repo
+API Platform 关闭以后，有网友通过逆向工程研究公开了 Instagram Private API, 并提供了 SDK, 列举几个 Github Repo
 
 * [https://github.com/mgp25/Instagram-API](https://github.com/mgp25/Instagram-API)
 * [https://github.com/LevPasha/Instagram-API-python](https://github.com/LevPasha/Instagram-API-python)
 * [https://github.com/dilame/instagram-private-api](https://github.com/dilame/instagram-private-api)
 
-我用 PHP 的 SDK 亲测可用！
+mgp25 的 PHP 的 SDK 亲测可用！我将代码放在了 Github 上。
+[https://github.com/yangzhyo/clear-instagram](https://github.com/yangzhyo/clear-instagram)
 
 ## 安装
 ```php
@@ -100,18 +101,28 @@ $ig->login('test','test');
 
 // 移除关注
 $followings = $ig->people->getSelfFollowing('123e4567-e89b-12d3-a456-426655440000');
+print_r('Totally '.count($followers->getUsers())." followings\n");
 foreach ($followings->getUsers() as $user) {
-    var_dump($user->getPk());
+    print_r('Remove '.$user->getPk()."\n");
     $ig->people->unfollow($user->getPk());
 }
 
 // 移除粉丝
 $followers = $ig->people->getSelfFollowers('123e4567-e89b-12d3-a456-426655440000');
+print_r('Totally '.count($followers->getUsers())." followers\n");
 foreach ($followers->getUsers() as $user) {
-    var_dump($user->getPk());
+    print_r('Remove '.$user->getPk()."\n");
     $ig->people->removeFollower($user->getPk());
+}
+
+// 移除媒体
+$userFeeds = $ig->timeline->getSelfUserFeed();
+print_r('Totally '.count($userFeeds->getItems())." media\n");
+foreach ($userFeeds->getItems() as $item) {
+    print_r('Delete '.$item->getPk()."\n");
+    $ig->media->delete($item->getPk());
 }
 ```
 
 ## 结果
-运行成功，但是要注意 Instagram 的频控，我的扫僵尸过程中被中断了好几次，重试就好了。
+运行成功，但是要注意 Instagram 的频控，如果被中止过一会儿重试就好了。
