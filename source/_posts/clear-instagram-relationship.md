@@ -101,7 +101,7 @@ $ig->login('test','test');
 
 // 移除关注
 $followings = $ig->people->getSelfFollowing('123e4567-e89b-12d3-a456-426655440000');
-print_r('Totally '.count($followers->getUsers())." followings\n");
+print_r('Totally '.count($followings->getUsers())." followings\n");
 foreach ($followings->getUsers() as $user) {
     print_r('Remove '.$user->getPk()."\n");
     $ig->people->unfollow($user->getPk());
