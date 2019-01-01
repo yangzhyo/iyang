@@ -7,7 +7,7 @@ tags: [Instagram]
 ---
 
 > Instagram 被老毛子盗窃了，邮箱都被篡改了，好在最终找回了帐号。登录帐号发现，多了几百个粉丝（Followers），两千多个关注（Followings），更要命的是，Instagram 并没有提供批量移除的功能，总不可能人肉一个个干，万幸的是程序员不怕折腾。
-> Tags: 批量移除 Instagram 关注和粉丝，Remove Instagram followers and followings.
+> Tags: 批量移除 Instagram 内容、关注、粉丝，Remove Instagram media, followers, followings.
 
 <!-- more -->
 
