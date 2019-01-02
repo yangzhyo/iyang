@@ -105,6 +105,7 @@ print_r('Totally '.count($followings->getUsers())." followings\n");
 foreach ($followings->getUsers() as $user) {
     print_r('Remove '.$user->getPk()."\n");
     $ig->people->unfollow($user->getPk());
+    sleep(5); // 防止触发频控策略
 }
 
 // 移除粉丝
@@ -113,6 +114,7 @@ print_r('Totally '.count($followers->getUsers())." followers\n");
 foreach ($followers->getUsers() as $user) {
     print_r('Remove '.$user->getPk()."\n");
     $ig->people->removeFollower($user->getPk());
+    sleep(5); 
 }
 
 // 移除媒体
@@ -121,8 +123,22 @@ print_r('Totally '.count($userFeeds->getItems())." media\n");
 foreach ($userFeeds->getItems() as $item) {
     print_r('Delete '.$item->getPk()."\n");
     $ig->media->delete($item->getPk());
+    sleep(5); 
 }
+
+// 移除点赞。俄罗斯人用我的帐号给大量的俄罗斯帐号点了赞，现在系统给我推荐的好友大多是俄罗斯人，[摊手]。
+$maxId = null;
+do {
+    $likedFeeds = $ig->media->getLikedFeed();
+    print_r('Retrieved '.count($likedFeeds->getItems())." liked media\n");
+    foreach ($likedFeeds->getItems() as $item) {
+        print_r('Unlike '.$item->getPk()."\n");
+        $ig->media->unlike($item->getPk());
+        sleep(5);
+    }
+    $maxId = $likedFeeds->getNextMaxId();
+} while ($maxId !== null);
 ```
 
 ## 结果
-运行成功，但是要注意 Instagram 的频控，如果被中止过一会儿重试就好了。
+运行成功，虽然操作之间加入了等待，但还是有可能触发频控，只需要等待重试即可。
