@@ -18,7 +18,7 @@ tags: [macOS]
 
 ![my terminal](http://i.imgur.com/SbA1VGI.png)
 
-### 改装清单
+▼ 改装清单
 * iTerm 2
 * iTerm Solarized theme
 * zsh
@@ -28,20 +28,27 @@ tags: [macOS]
 * zsh-syntax-highlighting plugin
 
 # 改装过程
+
 ## iTerm
 > **[iTerm](http://www.iterm2.com/)** 是 macOS 默认终端程序（Terminal）的替代品，它带来更现代的体验。
 
 ### 如何安装？
-直接 [下载](http://www.iterm2.com/downloads.html)，拖拽到应用```应用程序```目录。
+
+直接 [下载](http://www.iterm2.com/downloads.html)，拖拽到应用 `应用程序` 目录。
+
 ### 更改配色方案为 Solarized
+
 iTerm2 内置了几套配色方案，大家可以根据自己的喜好选择。直接在 ```iTerm2 - Preferences - Profiles - Colors``` 里面配置就好。在下用的是 Solarized Dark.
 
 ![Colors](http://imgur.com/U5P9pBD.png)
+
 ### 彩色的文字 
 去掉 ```iTerm2 - Preferences - Profiles - Text - Text Rendering```，将 Draw bold text in bright colors 前面的勾，终端上该显示的彩色文字就回来了。
+
 ### 自动完成
 通过快捷键 ```command+;``` 可自动联想出一些命令；
 ![AutoComp](http://www.iterm2.com/img/screenshots/autocomplete.png)
+
 ### 快捷呼出
 iTerm 提供了非常方便快捷的呼出功能，不管你的桌面环境有多么复杂，一个快捷键就能把终端呼出。
 在```iTerm2 - Preferences - Key```设置：
@@ -76,6 +83,7 @@ cat /etc/shells
 /bin/zsh
 ```
 如果想改变默认的 shell，可执行 ```chsh -s /bin/zsh```。这里我们不用手动改变，安装好 oh-my-zsh 后会自动修改。
+
 ## oh-my-zsh
 zsh 配置复杂，交给 [oh-my-zsh](http://ohmyz.sh/) 来管理。
 > Oh-My-Zsh is an open source, community-driven framework for managing your ZSH configuration. It comes bundled with a ton of helpful functions, helpers, plugins, themes, and a few things that make you shout...
