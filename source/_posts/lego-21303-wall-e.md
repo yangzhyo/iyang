@@ -23,7 +23,7 @@ tags: [LEGO,乐高]
 
 # LEGO 21303 Wall-E
 
-[LEGO 21303 Wall-E](https://shop.lego.com/en-HU/product/WALL-E-21303) 是 [LEGO Ideas](https://shop.lego.com/en-US/category/ideas) 系列产品，Ideas 的产品都是来自于玩家的自由创意，经过社区投票角逐而由官方产品化。瓦力(Wall-E)是皮克斯经典动画电影 [机器人总动员](https://movie.douban.com/subject/2131459/) 中的男主角，一个任劳任怨的垃圾整理机器人，喜欢搜集各种宝贝，有一位小强朋友，为女神 Eva 坠入爱河。
+[LEGO 21303 Wall-E](https://shop.lego.com/en-HU/product/WALL-E-21303) 是 [LEGO Ideas](https://shop.lego.com/en-US/category/ideas) 系列产品，Ideas 的产品都是来自于玩家的自由创意，经过社区投票角逐而由官方产品化。瓦力 (Wall-E )是皮克斯经典动画电影 [机器人总动员](https://movie.douban.com/subject/2131459/) 中的男主角，一个任劳任怨的垃圾整理机器人，喜欢搜集各种宝贝，有一位小强朋友，为女神 Eva 坠入爱河。
 
 从官网产品页得知，21303 Wall-E 已经绝版，线下专卖店更是不可能买到，好在有万能的某宝和上一节提到的“收藏家”，让我如愿以偿买到了这台绝版瓦力。
 
@@ -32,12 +32,12 @@ tags: [LEGO,乐高]
 
 箱内是乐高零件（676片）、工具，以及一本说明书。需要注意的是，官方出品的第一代 Wall-E 产品脖子有设计缺陷，会导致头部失重变成歪脖子瓦力，不过后来出了官方补丁，修复了这一问题。大家在购买时请注意问清版本。
 
-拼装过程不难，参照说明书，几个小时既可完成。乐高官网也提供了 [拼装手册](https://www.lego.com/en-us/service/buildinginstructions/search?initialsearch=21303#?text=21303)
+拼装过程不难，参照说明书，几个小时既可完成。乐高官网也提供了 [拼装手册](https://www.lego.com/en-us/service/buildinginstructions/search?initialsearch=21303#?text=21303)。
 
-▼ 下面视频是热心玩家提供的脖子问题原因，以及修复补丁工作原理（油管视频，需科学上网观看）
+▼ 下面这个视频是油管上的热心玩家讲解脖子缺陷的形成原因，以及修复补丁的工作原理（油管视频，需科学上网观看）
 [LEGO Wall-E official neck fix in action](https://www.youtube.com/watch?v=8pGMsBI2y-w)
 
-▼ 上一张成品照片，这可怜兮兮的眼神，生怕别人抢走了他的绿植，很有灵气。
+▼ 献上一张成品照片，这可怜兮兮的眼神，生怕别人抢走了他的绿植，很有灵气。
 ![成品1](https://i.imgur.com/bOEArRx.jpg)
 
 # 摩托化 (Motorize)
@@ -47,13 +47,13 @@ tags: [LEGO,乐高]
 ▼ 如下是需要用到的部件（电源盒 x 1，M号马达 x 2，红外接收器 x 1，红外遥控器 x1，零件若干）
 ![动力包零件](https://i.imgur.com/RZsqgOz.png)
 
-改装过程在网上有很多可供参考的视频，我在这里提供两个，我作了参考，但并未完全参照，加入了自己的创意，这里不作赘述。大家可以自由发挥，这就是乐高的乐趣，充分发挥自己的想象力和创造性。
+改装过程在网上有很多可供参考的视频，在这里提供两个，我作了参考，但并未完全参照，加入了自己的创意，这里不作赘述。大家可以自由发挥，这就是乐高的乐趣，充分发挥自己的想象力和创造性。
 
 * [HOW TO Motorize Lego Ideas Wall-E #21303 DIY](https://www.youtube.com/watch?v=k0q53_HuAAg)
 * [MOC – LEGO Wall-E RC Motorized Speed Build (instruction)](https://www.youtube.com/watch?v=32ybYylVVGs)
 
-▼ 下面是我的动力瓦力，正值嫦娥4-玉免2登月，于是以瓦力拍了一个模拟视频向中国航天致敬。
-<iframe src="http://player.youku.com/embed/XNDAwMDA3NTU1Ng==" frameborder=0></iframe>
+▼ [下面是我的动力版瓦力，正值 嫦娥4-玉免2 登月，于是以瓦力拍了一个模拟视频向中国航天致敬。](http://v.youku.com/v_show/id_XNDAwMDA3NTU1Ng==.html)
+<iframe src="http://player.youku.com/embed/XNDAwMDA3NTU1Ng==" frameborder="0" allowfullscreen></iframe>
 
 # 声音与灯效
 
@@ -65,9 +65,9 @@ tags: [LEGO,乐高]
 根据视频的描述，是一家叫 [Fx Bricks](https://fxbricks.com) 的公司提供的零件，根据对视频和产品的研究，理清了我所需要的零件：
 
 * [PFx Brick IR 4 MB](https://www.fxbricks.com/store/index.php?product/page/3202/PFx+Brick+IR+4+MB), 红外接收器，提供一个电源接口，两个马达接口，一个扬声器接口，一个 LED 灯模组接口，接口兼容 LEGO PF, 4 MB 音频存储空间。
-* [M Speaker Brick](https://www.fxbricks.com/store/index.php?product/page/3197/M+Speaker+Brick)
-* [Fx LED Red (128 mm)](https://www.fxbricks.com/store/index.php?product/page/3266/Fx+LED+Red+%28128+mm%29)
-* [Fx LED White (128 mm)](https://www.fxbricks.com/store/index.php?product/page/3258/Fx+LED+White+%28128+mm%29)
+* [M Speaker Brick](https://www.fxbricks.com/store/index.php?product/page/3197/M+Speaker+Brick)，扬声器。
+* [Fx LED Red (128 mm)](https://www.fxbricks.com/store/index.php?product/page/3266/Fx+LED+Red+%28128+mm%29)，红色 LED 灯 x 1。
+* [Fx LED White (128 mm)](https://www.fxbricks.com/store/index.php?product/page/3258/Fx+LED+White+%28128+mm%29)，白色 LED 灯 x 2。
 * [pinLABduo](https://www.fxbricks.com/store/index.php?product/page/3181/pinLABduo)，LED 灯控模组，最多可接入 16 个 LED 灯。
 
 改装过程，
@@ -75,7 +75,7 @@ tags: [LEGO,乐高]
 2. 接上 M Speaker Brick 到 PFx Brick IR 4 MB
 3. 接上 pinLABduo 到 PFx Brick IR 4 MB
 4. 接上 Fx LED Red (128 mm) 和 Fx LED White (128 mm) x 2 到 pinLABduo
-5. 用 Fx Bricks 提供的 [App](https://fxbricks.com/resources/page/) 进行配置，官方有直接提供预配置好的 Profile [21303 Wall-E Pre-Configured Profile](https://fxbricks.com/resources/profiles/)
+5. 用 Fx Bricks 提供的 [App](https://fxbricks.com/resources/page/) 进行配置，官方提供了预配置好的配置文件 [21303 Wall-E Pre-Configured Profile](https://fxbricks.com/resources/profiles/)
 
 安装过程可参考以下两个视频：
 
