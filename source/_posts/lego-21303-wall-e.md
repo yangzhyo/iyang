@@ -52,8 +52,8 @@ tags: [LEGO,乐高]
 * [HOW TO Motorize Lego Ideas Wall-E #21303 DIY](https://www.youtube.com/watch?v=k0q53_HuAAg)
 * [MOC – LEGO Wall-E RC Motorized Speed Build (instruction)](https://www.youtube.com/watch?v=32ybYylVVGs)
 
-▼ [下面是我的动力版瓦力，正值 嫦娥4-玉免2 登月，于是以瓦力拍了一个模拟视频向中国航天致敬。](http://v.youku.com/v_show/id_XNDAwMDA3NTU1Ng==.html)
-<iframe src="http://player.youku.com/embed/XNDAwMDA3NTU1Ng==" frameborder="0" allowfullscreen></iframe>
+▼ 下面是我的动力版瓦力，正值 嫦娥4-玉免2 登月，于是以瓦力拍了一个模拟视频向中国航天致敬。
+<iframe src="https://player.youku.com/embed/XNDAwMDA3NTU1Ng==" frameborder="0" allowfullscreen></iframe>
 
 # 声音与灯效
 
