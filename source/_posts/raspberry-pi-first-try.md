@@ -11,7 +11,7 @@ tags: [Raspberry Pi, Raspbian]
 
 <!-- more -->
 
-##### 配置：
+# 配置
 
 * A 900MHz quad-core ARM Cortex-A7 CPU
 * 1GB RAM
@@ -25,6 +25,8 @@ tags: [Raspberry Pi, Raspbian]
 * Micro SD card slot
 * VideoCore IV 3D graphics core
 
+# 配件
+
 不花一分钱，把家里已经退役的那些“老家伙”们都请出来了，
 
 * 已退役的Sony安卓手机充电器
@@ -33,6 +35,8 @@ tags: [Raspberry Pi, Raspbian]
 * 已退役的HP无线鼠标
 * 已退役的键盘
 * Xbox的HDMI线
+
+# 安装操作系统
 
 按照RaspberryPi官方建议，下载并安装了Raspbian。这是其官方支持的操作系统，基于Debian。当然还支持其它操作系统，如Ubuntu、Win 10等。
 

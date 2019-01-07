@@ -37,13 +37,13 @@ tags: [PHP,Coding Standard]
 
 	The PEAR Coding Standards apply to code that is part of the official PEAR distribution. Coding standards often abbreviated as CS among developers and they aim to keep code consistent to be easily readable and maintainable by most of PEAR folks.
 	
-	参考[官方说明](http://pear.php.net/manual/en/standards.php)
+	参考 [官方说明](http://pear.php.net/manual/en/standards.php)
 	
 * Zend
 	
 	Zend Framework 使用的代码规范。
 	
-	参考[官方说明](https://framework.zend.com/manual/1.11/en/coding-standard.html)
+	参考 [官方说明](https://framework.zend.com/manual/1.11/en/coding-standard.html)
 
 # Code Sniffer
 
@@ -58,7 +58,7 @@ tags: [PHP,Coding Standard]
 
 ## 安装 Code Sniffer
 
-参考[官方文档](https://github.com/squizlabs/PHP_CodeSniffer)
+参考 [官方文档](https://github.com/squizlabs/PHP_CodeSniffer)
 
 ## 使用 Code Sniffer
 
@@ -82,7 +82,7 @@ PHPCBF CAN FIX THE 2 MARKED SNIFF VIOLATIONS AUTOMATICALLY
 --------------------------------------------------------------------------------
 ```
 
-Code-Sniffer 默认使用 PEAR 代码规范。可以使用 ```--standard=xxx``` 指定。
+Code-Sniffer 默认使用 PEAR 代码规范。可以使用 `--standard=xxx` 指定。
 
 ```shell
 $ phpcs --standard=PSR2 /path/to/code/myfile.php
@@ -106,7 +106,7 @@ Patched 2 files
 Time: 2.55 secs, Memory: 25.00Mb
 ```
 
-更多功能，参考[官方文档](https://github.com/squizlabs/PHP_CodeSniffer/wiki)
+更多功能，参考 [官方文档](https://github.com/squizlabs/PHP_CodeSniffer/wiki)
 
 ## 与 PHP Storm 集成
 
@@ -128,7 +128,7 @@ Time: 2.55 secs, Memory: 25.00Mb
 
 使用 GIT 的 Pre-Commit Hook，可以在代码被提交之前，强制调用 Code Sniffer 进行代码检查，如果不符合规范，将阻止用户提交代码。
 
-1. 在项目的 ```.git/hooks``` 建立 ```pre-commit``` 文件
+1. 在项目的 `.git/hooks` 建立 `pre-commit` 文件
 2. 写入代码：
 	[Pre-Commit Gist](https://gist.githubusercontent.com/yangzhyo/6dad52e862c5efa368c992efc52e1fb9/raw/dec18f55ddfdf6eeb6d659a19398ec2d106fface/pre-commit.php)
 	

@@ -38,20 +38,20 @@ tags: [macOS]
 
 ### 更改配色方案为 Solarized
 
-iTerm2 内置了几套配色方案，大家可以根据自己的喜好选择。直接在 ```iTerm2 - Preferences - Profiles - Colors``` 里面配置就好。在下用的是 Solarized Dark.
+iTerm2 内置了几套配色方案，大家可以根据自己的喜好选择。直接在 `iTerm2 - Preferences - Profiles - Colors` 里面配置就好。在下用的是 Solarized Dark.
 
 ![Colors](http://imgur.com/U5P9pBD.png)
 
 ### 彩色的文字 
-去掉 ```iTerm2 - Preferences - Profiles - Text - Text Rendering```，将 Draw bold text in bright colors 前面的勾，终端上该显示的彩色文字就回来了。
+去掉 `iTerm2 - Preferences - Profiles - Text - Text Rendering`，将 Draw bold text in bright colors 前面的勾，终端上该显示的彩色文字就回来了。
 
 ### 自动完成
-通过快捷键 ```command+;``` 可自动联想出一些命令；
+通过快捷键 `command+;` 可自动联想出一些命令；
 ![AutoComp](http://www.iterm2.com/img/screenshots/autocomplete.png)
 
 ### 快捷呼出
 iTerm 提供了非常方便快捷的呼出功能，不管你的桌面环境有多么复杂，一个快捷键就能把终端呼出。
-在```iTerm2 - Preferences - Key```设置：
+在 `iTerm2 - Preferences - Key` 设置：
 
 ![Hotkey](http://imgur.com/PPgeHNI.png)
 
@@ -67,7 +67,7 @@ iTerm 提供了非常方便快捷的呼出功能，不管你的桌面环境有�
 ## zsh
 macOS 默认 Shell 是 bash，而我们要改装的是另一款强大的 Shell: [zsh](http://www.zsh.org/)，全称 Z Shell，相比 bash 有大量的改进，参考[Wiki](https://zh.wikipedia.org/wiki/Z_shell)。
 
-在 ```/etc/shells``` 文件列举了所有支持的 shell 解释器:
+在 `/etc/shells` 文件列举了所有支持的 shell 解释器:
 
 ``` shell
 cat /etc/shells
@@ -82,7 +82,7 @@ cat /etc/shells
 /bin/tcsh
 /bin/zsh
 ```
-如果想改变默认的 shell，可执行 ```chsh -s /bin/zsh```。这里我们不用手动改变，安装好 oh-my-zsh 后会自动修改。
+如果想改变默认的 shell，可执行 `chsh -s /bin/zsh`。这里我们不用手动改变，安装好 oh-my-zsh 后会自动修改。
 
 ## oh-my-zsh
 zsh 配置复杂，交给 [oh-my-zsh](http://ohmyz.sh/) 来管理。
@@ -108,17 +108,17 @@ $ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools
 	
 	这里下载：[Powerline-patched font](https://github.com/powerline/fonts)
 	
-	安装后，在 ```iTerm2 - Preferences - Profiles - Text - Font``` 修改字体为 Powerline 提供的字体，在下用的是 ```Meslo LG S DZ Regular for Powerline```
+	安装后，在 `iTerm2 - Preferences - Profiles - Text - Font` 修改字体为 Powerline 提供的字体，在下用的是 `Meslo LG S DZ Regular for Powerline`
 
 准备好上述条件后，
 
-1. 从 Agnoster 的 [Repo](https://github.com/agnoster/agnoster-zsh-theme) 下载 Theme 到 ```~/.oh-my-zsh/themes/```（有可能皮肤已经默认被安装了，检查一下）
-2. 修改配置文件 ```~/.zshrc```
+1. 从 Agnoster 的 [Repo](https://github.com/agnoster/agnoster-zsh-theme) 下载 Theme 到 `~/.oh-my-zsh/themes/`（有可能皮肤已经默认被安装了，检查一下）
+2. 修改配置文件 `~/.zshrc`
 
 	``` shell
    ZSH_THEME="agnoster"
 	```
-3. 命令行默认会显示用户名和机器名，可能会比较长，可以通过修改主题脚本来解决，将 ```~/.oh-my-zsh/themes/agnoster.zsh-theme``` 中的 ```prompt_conext()``` 方法中的代码注释掉即可。
+3. 命令行默认会显示用户名和机器名，可能会比较长，可以通过修改主题脚本来解决，将 `~/.oh-my-zsh/themes/agnoster.zsh-theme` 中的 `prompt_conext()` 方法中的代码注释掉即可。
 
 ## zsh-syntax-highlighting plugin
 > 一个锦上添花的[插件](https://github.com/zsh-users/zsh-syntax-highlighting)，可以在你敲命令的时候，识别命令的正确性，正确显示为绿色，错误显示为红色。
@@ -127,15 +127,15 @@ $ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools
 
 1. Clone this repository in oh-my-zsh's plugins directory:
 
-	```git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting```
+	`git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting`
 	
 2. Activate the plugin in ~/.zshrc:
 	
-	```plugins=( [plugins...] zsh-syntax-highlighting)```
+	`plugins=( [plugins...] zsh-syntax-highlighting)`
 	
 3. Source ~/.zshrc to take changes into account:
 	
-	```source ~/.zshrc```
+	`source ~/.zshrc`
 	
 ### 更多很酷的插件
 见 [awesome-zsh-plugins](https://github.com/unixorn/awesome-zsh-plugins)

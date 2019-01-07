@@ -83,7 +83,7 @@ API Platform 关闭以后，有网友通过逆向工程研究公开了 Instagram
 * [https://github.com/dilame/instagram-private-api](https://github.com/dilame/instagram-private-api)
 
 mgp25 的 PHP 的 SDK 亲测可用！我将代码放在了 Github 上。
-[https://github.com/yangzhyo/clear-instagram](https://github.com/yangzhyo/clear-instagram)
+[https://github.com/yangzhyo/clean-instagram](https://github.com/yangzhyo/clean-instagram)
 
 ## 安装
 ```php
