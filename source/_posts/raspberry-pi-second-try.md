@@ -12,7 +12,7 @@ tags: [Raspberry Pi, Raspbian]
 
 # 重刷系统
 
-[Raspbian](https://www.raspbian.org/) 是一个运行在树莓派上的开源操作系统，它基于 [Debain](https://www.debian.org/) 进行了优化，并受到官方和社区的长期支持。
+[Raspbian](https://www.raspbian.org/) 是一个运行在树莓派上的开源操作系统，它基于 [Debian](https://www.debian.org/) 进行了优化，并受到官方和社区的长期支持。
 
 我需要抹掉之前安装的 Raspbian with Desktop，重新安装 Raspbian Lite，先把操作系统瘦身了。Lite 版只包含最基本的系统和软件，不包含图形化界面。
 
