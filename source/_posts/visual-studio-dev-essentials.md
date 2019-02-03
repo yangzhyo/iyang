@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "加入Visual Studio Dev Essentials计划"
+title: "加入 Visual Studio Dev Essentials 计划"
 date: 2016-02-24 00:10:00
 categories: 折腾
 tags: [Visual Studio]

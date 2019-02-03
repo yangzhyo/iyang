@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "老杨的博客1.0发布"
+title:  "老杨的博客 1.0 发布"
 date:   2015-02-11 23:28:00
 categories: 折腾
 tags : [Amaze UI,Jekyll,前端]
 ---
 
-至此，老杨的博客1.0版本发布了。实现了博客的基本功能：
+至此，老杨的博客 1.0 版本发布了。实现了博客的基本功能：
 
  1. 博客信息
  2. 博客流
@@ -21,4 +21,4 @@ tags : [Amaze UI,Jekyll,前端]
 
 **博客技术介绍**
 
-基于Jekyll + AmazeUI
+基于 Jekyll + AmazeUI
