@@ -139,7 +139,7 @@ deploy:
     ```
 4. 运行 Webhook Handler 工具。
     `nohup ./webhook -hooks hooks.json -verbose > log.txt &`
-    此时，Handler 将对外提供 HTTP 服务，地址为 http://server:9000/hooks/{id}，其中 id 为 hooks.json 中配置的 id.
+    此时，Handler 将对外提供 HTTP 服务，地址为 http://server:9000/hooks/{id}，其中 id 为 hooks.json 中配置的 id. Handler 处理的日志记录在 log.txt.
 
 ## 为 Git Repo 配置 Webhook
 
