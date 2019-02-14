@@ -80,3 +80,8 @@ theme: next
 deploy:
   type: git
   repo: git@github.com:yangzhyo/yangzhyo.github.io.git
+  #type: rsync
+  #host: xxx
+  #user: xxx
+  #root: /xxx/
+  #port: 0
