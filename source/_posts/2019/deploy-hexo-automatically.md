@@ -62,8 +62,7 @@ deploy:
 ## Webhook Handler
 
 1. 从 Github 上下载对应的 [二进制发行版](https://github.com/adnanh/webhook/releases)，并解压到合适的目录；
-2. 编写 Webhook Handler 配置文件；
-    `hooks.json`
+2. 编写 Webhook Handler 配置文件 `hooks.json`
     ```
     [
         {
@@ -125,8 +124,7 @@ deploy:
     command-working-directory：设置执行 Shell 的工作目录；
     pass-arguments-to-command：配置传递给命令的参数，数据来自于 Http 请求的参数、头部、Json 数据等，见 [说明](https://github.com/adnanh/webhook/blob/master/docs/Referencing-Request-Values.md)。
     trigger-rule：配置触发规则，只有规则命中，命令才会被执行，以保证安全性。规则说明看 [这里](https://github.com/adnanh/webhook/blob/master/docs/Hook-Rules.md)。
-3. 编写部署 Shell 脚本；
-    `deploy.sh`
+3. 编写部署 Shell 脚本 `deploy.sh`
     ```
     #!/bin/sh
 
