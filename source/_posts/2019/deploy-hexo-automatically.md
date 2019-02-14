@@ -6,7 +6,7 @@ categories: 折腾
 tags: [Hexo, Webhook, CI/CD]
 ---
 
-前段时间把 [博客从 Jekyll 改成了 Hexo 实现](2018/04/17/blog-rebuild-with-hexo/)，站点也从 Github Pages 迁移到了 VPS，丧失了自动构建与部署的能力，好在自己折腾一下也不算麻烦。
+前段时间把 [博客从 Jekyll 改成了 Hexo 实现](/2018/04/17/blog-rebuild-with-hexo/)，站点也从 Github Pages 迁移到了 VPS，丧失了自动构建与部署的能力，好在自己折腾一下也不算麻烦。
 
 <!-- more -->
 
@@ -28,7 +28,7 @@ Hexo 自带一个简单易用的部署工具，支持多种传输协议，详细
 
 该方案会将 Hexo 构建出来的静态文件夹 `public` 推送到配置好的 Git Repo 中，例如 Github Pages Repo。如果正在使用 Github Pages 作为博客的宿主，这个方案就很合适。
 
-修改 Hexo 配置文件 `_config.yml` ：
+修改 Hexo 配置文件 `_config.yml` 
 ```
 deploy:
   type: git
@@ -39,7 +39,7 @@ deploy:
 
 该方案使用 [Rsync](https://zh.wikipedia.org/wiki/Rsync) 工具同步静态文件到远端服务器，适合自有服务器的场景。
 
-修改 Hexo 配置文件 `_config.yml` ：
+修改 Hexo 配置文件 `_config.yml` 
 ```
 deploy:
   type: rsync
@@ -51,7 +51,7 @@ deploy:
 
 ## 小结
 
-使用 Hexo 自带的部署工具不够完美，一是每次需要多执行一次部署命令，二是有可能泄漏服务器信息，如用户名、端口等。
+使用 Hexo 自带的部署工具不够完美，一是每次需要多执行一次部署命令，二是有可能泄漏服务器信息，如用户名、端口等。下面讨论 Plan B.
 
 # Git Webhook
 
@@ -63,12 +63,12 @@ deploy:
 
 1. 从 Github 上下载对应的 [二进制发行版](https://github.com/adnanh/webhook/releases)，并解压到合适的目录；
 2. 编写 Webhook Handler 配置文件；
-    hooks.json
+    `hooks.json`
     ```
     [
         {
-            "id": "deploy-iyang-webhook",
-            "execute-command": "/opt/webhook/deploy-iyang.sh",
+            "id": "deploy-webhook",
+            "execute-command": "/opt/webhook/deploy.sh",
             "command-working-directory": "/opt/webhook/",
             "pass-arguments-to-command":
             [
@@ -124,9 +124,9 @@ deploy:
     execute-command：配置用于执行部署的 Shell 脚本文件；
     command-working-directory：设置执行 Shell 的工作目录；
     pass-arguments-to-command：配置传递给命令的参数，数据来自于 Http 请求的参数、头部、Json 数据等，见 [说明](https://github.com/adnanh/webhook/blob/master/docs/Referencing-Request-Values.md)。
-    trigger-rule：配置触发规则，只有规则命中，命令才会被执行。规则说明看 [这里](https://github.com/adnanh/webhook/blob/master/docs/Hook-Rules.md)。
+    trigger-rule：配置触发规则，只有规则命中，命令才会被执行，以保证安全性。规则说明看 [这里](https://github.com/adnanh/webhook/blob/master/docs/Hook-Rules.md)。
 3. 编写部署 Shell 脚本；
-    deploy-iyang.sh
+    `deploy.sh`
     ```
     #!/bin/sh
 
@@ -146,7 +146,7 @@ deploy:
 以 Github 为例，在 Repo 的 Setting 界面，找到 Webhook 菜单，即可添加 Webhook，需要
 1. 配置 Payload URL（即上一节 Webhook Handler 提供的地址）；
 2. Content-Type 设置为 application/json；
-3. 设置 Secret，用于对 Payload 数据进行签名加盐，必须与 Webhook Handler 配置文件中的一致；
+3. 设置 Secret，用于对 Payload 数据进行签名加盐，必须与 Webhook Handler 配置文件保持一致；
 4. 设置触发事件类型，选择 Push 即可。
 
 配置完成后，会自动发送一个 Ping 事件，测试用途。随后该 Repo 所有的 Push 都会触发一次 Webhook。
