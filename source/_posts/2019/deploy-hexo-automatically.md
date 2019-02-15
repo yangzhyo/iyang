@@ -6,7 +6,7 @@ categories: 折腾
 tags: [Hexo, Webhook, CI/CD]
 ---
 
-前段时间把 [博客从 Jekyll 改成了 Hexo 实现](/2018/blog-rebuild-with-hexo/)，站点也从 Github Pages 迁移到了 VPS，丧失了自动构建与部署的能力，好在自己折腾一下也不算麻烦。
+前段时间把 [博客从 Jekyll 改成了 Hexo 实现](../2018/blog-rebuild-with-hexo.html)，站点也从 Github Pages 迁移到了 VPS，丧失了自动构建与部署的能力，好在自己折腾一下也不算麻烦。
 
 <!-- more -->
 

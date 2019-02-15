@@ -6,7 +6,7 @@ categories: 折腾
 tags: [SSH, Raspberry Pi, Raspbian]
 ---
 
-前几天 [重装了树莓派](/2019/raspberry-pi-second-try/)，为了方便进一步把玩，需要
+前几天 [重装了树莓派](../2019/raspberry-pi-second-try.html)，为了方便进一步把玩，需要
 1. 从外部网络远程登录 Pi
 2. 从外部访问 Pi 提供的 API
 

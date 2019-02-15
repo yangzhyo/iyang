@@ -16,7 +16,7 @@ timezone: Asia/Chongqing
 url: https://iya.ng
 root: /
 #permalink: :year/:month/:day/:title/
-permalink: :title/
+permalink: :title.html
 permalink_defaults:
 
 # Directory
