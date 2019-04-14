@@ -80,7 +80,7 @@ CA 证书是有有效期的，Let’s Encrypt 的证书有效期为 3 个月，�
 通过执行以下命令，完成证书的更新。
 
 ```
-sudo certbot renew --dry-run
+sudo certbot renew
 ```
 
 如果怕忘记，可以配置一个 crontab 定时任务，自动完成检查和更新。
