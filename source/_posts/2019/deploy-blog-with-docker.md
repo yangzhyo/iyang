@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "博客 Docker 部署方案"
+title: "Hexo 博客 Docker 部署方案"
 date: 2019-06-10 23:30:00
 categories: 折腾
-tags: [Docker]
+tags: [Docker, Hexo]
 ---
 
 近期“墙哥”开启了疯狂屠杀模式，境外 VPS 横尸遍野，哥放在搬瓦工上的个人博客也不幸遇难。可耻的搬瓦工关闭了免费换 IP 服务，换一次居然要 $8.79【黑人问号】。只得另寻栖身之所，准备把博客搬到 GCP 香港。
@@ -15,10 +15,10 @@ tags: [Docker]
 
 想到以后还可能面临多次迁移，干脆趁这次机会实现容器化部署，一劳永逸了。
 
-# 基本部署架构
-![Deploy Arch](https://i.imgur.com/KwljC6G.png)
-
 <!-- more -->
+
+# 部署架构
+![Deploy Arch](https://i.imgur.com/KwljC6G.png)
 
 # 部署过程
 
@@ -84,7 +84,6 @@ docker run --detach \
 ## Docker-Compose
 
 一步步的启动容器还是略显麻烦，可以使用 Docker 提供的 [Compose](https://docs.docker.com/compose/) 工具完成一键部署。
-
 编写 `docker-compose.yml` 文件
 ```
 version: "3"
