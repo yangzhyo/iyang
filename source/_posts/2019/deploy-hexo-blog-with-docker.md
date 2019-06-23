@@ -73,7 +73,9 @@ docker run --detach \
 docker run --detach \
     --name iyang-webhook \
     --volume /opt:/app \
-    --publish 9000:9000 \
+    --env "VIRTUAL_HOST=webhook.iya.ng" \
+    --env "LETSENCRYPT_HOST=webhook.iya.ng" \
+    --env "LETSENCRYPT_EMAIL=yangzhyo@gmail.com" \
     yangzhyo/iyang-webhook
 ```
 
@@ -130,8 +132,10 @@ services:
     container_name: iyang-webhook
     depends_on:
       - iyang-server
-    ports:
-      - "9000:9000"
+    environment:
+      - VIRTUAL_HOST=webhook.iya.ng
+      - LETSENCRYPT_HOST=webhook.iya.ng
+      - LETSENCRYPT_EMAIL=yangzhyo@gmail.com
     volumes:
       - /opt:/app
 volumes:
@@ -200,8 +204,10 @@ services:
     image: yangzhyo/iyang-webhook
     depends_on:
       - iyang-server
-    ports:
-      - "9000:9000"
+    environment:
+      - VIRTUAL_HOST=webhook.iya.ng
+      - LETSENCRYPT_HOST=webhook.iya.ng
+      - LETSENCRYPT_EMAIL=yangzhyo@gmail.com
     volumes:
       - /opt:/app
 volumes:
