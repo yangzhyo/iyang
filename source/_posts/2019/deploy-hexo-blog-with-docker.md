@@ -63,7 +63,7 @@ docker run --detach \
     --volume /opt:/app \
     --env "VIRTUAL_HOST=iya.ng" \
     --env "LETSENCRYPT_HOST=iya.ng" \
-    --env "LETSENCRYPT_EMAIL=yangzhyo@gmail.com" \
+    --env "LETSENCRYPT_EMAIL=xxxx@gmail.com" \
     yangzhyo/iyang
 ```
 
@@ -75,7 +75,7 @@ docker run --detach \
     --volume /opt:/app \
     --env "VIRTUAL_HOST=webhook.iya.ng" \
     --env "LETSENCRYPT_HOST=webhook.iya.ng" \
-    --env "LETSENCRYPT_EMAIL=yangzhyo@gmail.com" \
+    --env "LETSENCRYPT_EMAIL=xxxx@gmail.com" \
     yangzhyo/iyang-webhook
 ```
 
@@ -124,7 +124,7 @@ services:
     environment:
       - VIRTUAL_HOST=iya.ng
       - LETSENCRYPT_HOST=iya.ng
-      - LETSENCRYPT_EMAIL=yangzhyo@gmail.com
+      - LETSENCRYPT_EMAIL=xxxx@gmail.com
     volumes:
       - /opt:/app
   iyang-webhook:
@@ -135,7 +135,7 @@ services:
     environment:
       - VIRTUAL_HOST=webhook.iya.ng
       - LETSENCRYPT_HOST=webhook.iya.ng
-      - LETSENCRYPT_EMAIL=yangzhyo@gmail.com
+      - LETSENCRYPT_EMAIL=xxxx@gmail.com
     volumes:
       - /opt:/app
 volumes:
@@ -197,7 +197,7 @@ services:
     environment:
       - VIRTUAL_HOST=iya.ng
       - LETSENCRYPT_HOST=iya.ng
-      - LETSENCRYPT_EMAIL=yangzhyo@gmail.com
+      - LETSENCRYPT_EMAIL=xxxx@gmail.com
     volumes:
       - /opt:/app
   iyang-webhook:
@@ -207,7 +207,7 @@ services:
     environment:
       - VIRTUAL_HOST=webhook.iya.ng
       - LETSENCRYPT_HOST=webhook.iya.ng
-      - LETSENCRYPT_EMAIL=yangzhyo@gmail.com
+      - LETSENCRYPT_EMAIL=xxxx@gmail.com
     volumes:
       - /opt:/app
 volumes:
