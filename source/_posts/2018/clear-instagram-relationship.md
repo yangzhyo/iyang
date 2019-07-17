@@ -15,7 +15,7 @@ tags: [Instagram]
 
 第一个能想到的办法是看看 [Instagram Open API](https://www.instagram.com/developer/)，但官宣老版的 API Platform 已经关闭了，全部迁移到 [Facebook 图谱 API](https://developers.facebook.com/docs/graph-api?locale=zh_CN) 的子项目 [Instagram Graph API](https://developers.facebook.com/products/instagram/)
 
-![https://i.imgur.com/FTASMl6.png](https://i.imgur.com/FTASMl6.png)
+![https://a.iya.ng/images/blog/FTASMl6.png](https://a.iya.ng/images/blog/FTASMl6.png)
 
 
 # Instagram Graph API
@@ -32,7 +32,7 @@ tags: [Instagram]
 
 再来看看 Instagram Graph API 的文档 [https://developers.facebook.com/docs/instagram-api](https://developers.facebook.com/docs/instagram-api)
 
-![https://i.imgur.com/4O2ou8B.png](https://i.imgur.com/4O2ou8B.png)
+![https://a.iya.ng/images/blog/4O2ou8B.png](https://a.iya.ng/images/blog/4O2ou8B.png)
 
 大致浏览了目前已开放的接口，并未找到 Relationship 相关的接口！用不了。
 

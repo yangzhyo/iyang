@@ -45,12 +45,12 @@ tags: [Raspberry Pi, Raspbian]
 
 分享几张图，
 
-![http://i.imgur.com/kIBOaiF.jpg](http://i.imgur.com/kIBOaiF.jpg)
+![https://a.iya.ng/images/blog/kIBOaiF.jpg](https://a.iya.ng/images/blog/kIBOaiF.jpg)
 
-![http://i.imgur.com/KVK2Jw5.jpg](http://i.imgur.com/KVK2Jw5.jpg)
+![https://a.iya.ng/images/blog/KVK2Jw5.jpg](https://a.iya.ng/images/blog/KVK2Jw5.jpg)
 
-![http://i.imgur.com/FdjESDU.jpg](http://i.imgur.com/FdjESDU.jpg)
+![https://a.iya.ng/images/blog/FdjESDU.jpg](https://a.iya.ng/images/blog/FdjESDU.jpg)
 
-![http://i.imgur.com/0qnja1h.jpg](http://i.imgur.com/0qnja1h.jpg)
+![https://a.iya.ng/images/blog/0qnja1h.jpg](https://a.iya.ng/images/blog/0qnja1h.jpg)
 
-![http://i.imgur.com/cPH1lvN.jpg](http://i.imgur.com/cPH1lvN.jpg)
+![https://a.iya.ng/images/blog/cPH1lvN.jpg](https://a.iya.ng/images/blog/cPH1lvN.jpg)

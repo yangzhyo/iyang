@@ -22,24 +22,24 @@ tags: [Visual Studio]
 [https://www.visualstudio.com/zh-cn/product/visual-studio-dev-essentials-vs.aspx](https://www.visualstudio.com/zh-cn/product/visual-studio-dev-essentials-vs.aspx "点击查看")
 
 #### 提供什么？
-![Imgur](http://i.imgur.com/ZnGSDxq.jpg)
+![Imgur](https://a.iya.ng/images/blog/ZnGSDxq.jpg)
 
 #### 计划权益
-![Imgur](http://i.imgur.com/KjG0xpO.jpg)
+![Imgur](https://a.iya.ng/images/blog/KjG0xpO.jpg)
 
-![Imgur](http://i.imgur.com/MIYgQLH.jpg)
+![Imgur](https://a.iya.ng/images/blog/MIYgQLH.jpg)
 
 #### 得到了哪些权益？
-![Imgur](http://i.imgur.com/lG9ixBD.jpg)
+![Imgur](https://a.iya.ng/images/blog/lG9ixBD.jpg)
 
 ##### Tool
-![Imgur](http://i.imgur.com/aYhtvaq.jpg)
+![Imgur](https://a.iya.ng/images/blog/aYhtvaq.jpg)
 
 ##### Education
-![Imgur](http://i.imgur.com/zkgeF5u.jpg)
+![Imgur](https://a.iya.ng/images/blog/zkgeF5u.jpg)
 
 ##### Support
-![Imgur](http://i.imgur.com/4O0CSpG.jpg)
+![Imgur](https://a.iya.ng/images/blog/4O0CSpG.jpg)
 
 #### 结束语
 还不错吧，从 IDE 到工具，再从平台到服务，还有免费的培训和支持，多么感人的计划。笔者赶紧取了 Parallels Desktop/Access 的免费订阅（三个月）来压压惊。另外还有一年的 Azure 免费计划。说到免费的云服务，还有一位业界良心，那就是 AWS，下一篇文章单独来介绍他好了。

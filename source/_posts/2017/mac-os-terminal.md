@@ -16,7 +16,7 @@ tags: [macOS]
 
 先看看效果：
 
-![my terminal](http://i.imgur.com/SbA1VGI.png)
+![my terminal](https://a.iya.ng/images/blog/SbA1VGI.png)
 
 ▼ 改装清单
 * iTerm 2
@@ -40,24 +40,24 @@ tags: [macOS]
 
 iTerm2 内置了几套配色方案，大家可以根据自己的喜好选择。直接在 `iTerm2 - Preferences - Profiles - Colors` 里面配置就好。在下用的是 Solarized Dark.
 
-![Colors](http://imgur.com/U5P9pBD.png)
+![Colors](https://a.iya.ng/images/blog/U5P9pBD.png)
 
 ### 彩色的文字 
 去掉 `iTerm2 - Preferences - Profiles - Text - Text Rendering`，将 Draw bold text in bright colors 前面的勾，终端上该显示的彩色文字就回来了。
 
 ### 自动完成
 通过快捷键 `command+;` 可自动联想出一些命令；
-![AutoComp](http://www.iterm2.com/img/screenshots/autocomplete.png)
+![AutoComp](https://a.iya.ng/images/blog/autocomplete.png)
 
 ### 快捷呼出
 iTerm 提供了非常方便快捷的呼出功能，不管你的桌面环境有多么复杂，一个快捷键就能把终端呼出。
 在 `iTerm2 - Preferences - Key` 设置：
 
-![Hotkey](http://imgur.com/PPgeHNI.png)
+![Hotkey](https://a.iya.ng/images/blog/PPgeHNI.png)
 
 * 第一个选项是设置快捷呼出的快捷键；
 * 第二个选项是另外一种形式的呼出（会在屏幕的上部展开一层半透明的窗体），如果这个选项未打开，默认是呼出 iTerm 窗体。
-	![Hotkey](http://imgur.com/8Lg58dX.png)
+	![Hotkey](https://a.iya.ng/images/blog/8Lg58dX.png)
 	
 	是不是很 Cool？注意这里可以为这个折叠层的显示设置单独设定一个 Profile，当然也可以共享默认的 Profile。
 
@@ -96,14 +96,14 @@ $ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools
 ### Agnoster theme
 [Agnoster theme](https://github.com/agnoster/agnoster-zsh-theme) 是 zsh 的一个 theme，看起来非常的酷。
 
-![agnoster-theme](https://gist.githubusercontent.com/agnoster/3712874/raw/screenshot.png)
+![agnoster-theme](https://a.iya.ng/images/blog/screenshot.png)
 
 要用好这套 theme，有两个准备条件：
 
 1. 推荐配合 iTerm 2 + Solarized Dark 使用
 	
 	看默认的 Terminal + bash 有多丑：
-	![terminal](http://imgur.com/c5CJGVB.png)
+	![terminal](https://a.iya.ng/images/blog/c5CJGVB.png)
 2. 安装 Powerline 字体，否则那些酷酷的符号无法正确显示
 	
 	这里下载：[Powerline-patched font](https://github.com/powerline/fonts)

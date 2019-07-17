@@ -18,7 +18,7 @@ tags: [Docker, Hexo]
 <!-- more -->
 
 # 部署架构
-![Deploy Arch](https://i.imgur.com/KwljC6G.png)
+![Deploy Arch](https://a.iya.ng/images/blog/KwljC6G.png)
 
 # 部署过程
 

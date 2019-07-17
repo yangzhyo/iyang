@@ -30,7 +30,7 @@ CA 中心必须是公信力足够强的机构，不会造假，这是大家相�
 * DV (Domain validated) Certificates，只验证域名的所有权，一般用于个人网站、小型网站。
 * OV (Organization validated) Certificates，除了验证 DV 所需要的信息外，还需要验证组织相关的信息，详见 [The information required for OV certificates](https://www.ssl.com/faqs/ssl-ov-validation-requirements/)。这类证书会包含组织名称，一般用于公司、政府、其他想要提升信任级别的实体。
 * EV (Extended validation) Certificates，比 OV 更高的验证级别，需要更严苛的认证信息，详见 [EV SSL Requirements](https://www.ssl.com/faqs/ssl-ev-validation-requirements/)。这类证书认证的域名，浏览器会在地址栏用绿色显示其公司名，以表达强力的信任程度，如下所示。
-![EV Domain](https://cdn.ssl.com/app/uploads/2015/07/DVOVEV_all.png?x10733)
+![EV Domain](https://a.iya.ng/images/blog/DVOVEV_all.png)
 
 更多信息，可参考：[DV OV and EV Certificates](https://www.ssl.com/article/dv-ov-and-ev-certificates/)
 
@@ -64,7 +64,7 @@ sudo certbot --nginx
 ```
 
 这个命令会自动获取证书，并修改 Nginx 配置文件。
-![Certbot-Nginx](https://i.imgur.com/KP0AgIs.png)
+![Certbot-Nginx](https://a.iya.ng/images/blog/KP0AgIs.png)
 
 如果你只想获取证书，然后手动配置 Nginx，可以加上 `certonly` 参数。
 

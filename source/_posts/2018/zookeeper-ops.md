@@ -14,7 +14,7 @@ tags: [运维,ZooKeeper]
 
 自然想到的第一个方案，是 ZooInspector，它是一个 GUI 版本的 ZooKeeper 管理器，可以通过它来浏览和管理节点。
 
-![ZooInspector](https://i.imgur.com/emSRNjl.png)
+![ZooInspector](https://a.iya.ng/images/blog/emSRNjl.png)
 
 下载地址：
 [https://issues.apache.org/jira/secure/attachment/12436620/ZooInspector.zip](https://issues.apache.org/jira/secure/attachment/12436620/ZooInspector.zip)

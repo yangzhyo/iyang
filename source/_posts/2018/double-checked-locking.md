@@ -72,7 +72,7 @@ singletons[i].reference = new Singleton();
 在多 CPU (Multi-Processor) 架构上，如果两个线程运行在不同的处理器上，每个线程针对共享变量，可以在 CPU 高速缓存中拥有自己的 Local Cache, 线程对变量值的更新不一定会实时反映到主存中，导致其他线程对变量的访问出现不一致。
 
 如下图所示：
-![https://cdncontribute.geeksforgeeks.org/wp-content/uploads/volatile-keyword-in-java.png](https://cdncontribute.geeksforgeeks.org/wp-content/uploads/volatile-keyword-in-java.png)
+![https://a.iya.ng/images/blog/volatile-keyword-in-java.png](https://a.iya.ng/images/blog/volatile-keyword-in-java.png)
 
 # 解决方案
 

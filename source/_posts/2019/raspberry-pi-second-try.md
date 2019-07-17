@@ -43,7 +43,7 @@ tags: [Raspberry Pi, Raspbian]
 
 在命令行敲命令，发现有些按键打出来的字并非键面所示，比如 `| @`，开始我还以为是键盘坏了，后来一搜才明白，这板子产自英国，默认配置为英国键盘。Raspbian 提供了配置工具，通过 `sudo raspi-config` 命令，可对一系列默认配置进行修改。
 
-![Raspi-Config](https://i.imgur.com/kgRZ7eH.png)
+![Raspi-Config](https://a.iya.ng/images/blog/kgRZ7eH.png)
 
 通过 `4 Localisation Options` 完成对时区、地区、键盘布局等配置的设定。
 

@@ -46,7 +46,7 @@ Debug 信息包含：
 
 看下图，就明白了：
 
-![xdebug运行结构](https://xdebug.org/images/docs/dbgp-setup.gif)
+![xdebug运行结构](https://a.iya.ng/images/blog/dbgp-setup.gif)
 
 * The IP of the server is 10.0.1.2 with HTTP on port 80
 * The IDE is on IP 10.0.1.42, so [xdebug.remote_host](https://xdebug.org/docs/all_settings#remote_host) is set to 10.0.1.42
@@ -57,7 +57,7 @@ Debug 信息包含：
 
 以上是单人模式，在 php.ini 中配置了 IDE 的 IP 地址以及监听的端口。这种模式的缺陷是配死了 IDE 目标，不能支持多用户调试。所以 Xdebug 还提供了一种多用户的调试模式，这种模式无需配置 remote_host，而是配置 [xdebug.remote_connect_back](https://xdebug.org/docs/all_settings#remote_connect_back)=On，Xdebug 会记下来访地址，作为调试时的连接目标。调试过程如下：
 
-![xdebug运行结构](https://xdebug.org/images/docs/dbgp-setup2.gif)
+![xdebug运行结构](https://a.iya.ng/images/blog/dbgp-setup2.gif)
 
 * The IP of the server is 10.0.1.2 with HTTP on port 80
 * The IDE is on an unknown IP, so [xdebug.remote_connect_back](https://xdebug.org/docs/all_settings#remote_connect_back) is set to 1
@@ -89,30 +89,30 @@ xdebug.remote_enable=On，表示打开远程调试开关，这是必须的。
 
 1. 命令行执行 php -v，看看
 
-	![pic](http://imgur.com/3UbEnNo.png)
+	![pic](https://a.iya.ng/images/blog/3UbEnNo.png)
 2. 网页输出 phpinfo()
 
-	![pic](http://imgur.com/r3I8FZF.png)
+	![pic](https://a.iya.ng/images/blog/r3I8FZF.png)
 	
 以上输出若能看到 Xdebug 版本信息，就 ok 了。另外，在 phpinfo 中，可以看到 xdebug 的配置信息，搜搜看，这些配置都是可以在 php.ini 中进行修改的，各自代表的意思大家可以查官网，这里就不详述了。
 
-![phpinfo](http://imgur.com/mYvST9x.png)
+![phpinfo](https://a.iya.ng/images/blog/mYvST9x.png)
 
 ## 配置IDE
 以 PHPStorm 为例，PHPStorm 实现了 DBGp 协议，我们需要配置它监听的端口，这个端口号需要与 xdebug.remote_port 一致，才能确保调试时 PHP-Xdebug 能连上 IDE。
 
 以下是默认配置，如果没有冲突可以不用改。在帮其他同学 trouble shooting 时，发现 php-fpm 和 xdebug 默认都使用 9000 号端口，真是一个奇怪的配置啊，难道他们俩不应该经常被同时使用吗？如果你发现自己的 debug 不能正常工作，不妨检查一下这一点，将他们调整为不同的端口。
 
-![pic](http://imgur.com/LO1jY1d.png)
+![pic](https://a.iya.ng/images/blog/LO1jY1d.png)
 
 ## 开始Debug
 之前说过，IDE 是作为一个 Server 的角色监听特定端口，等待 Xdebug 来连接，对于 PHPStorm 开启监听非常简单，直接点击右上角的“小电话”按钮：
 
-![pic](http://imgur.com/AkOjV7B.png)
+![pic](https://a.iya.ng/images/blog/AkOjV7B.png)
 
 变成
 
-![pic](http://imgur.com/flNtKQS.png)
+![pic](https://a.iya.ng/images/blog/flNtKQS.png)
 
 然后在代码里面打下断点。
 

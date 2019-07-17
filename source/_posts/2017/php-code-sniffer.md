@@ -112,17 +112,17 @@ Time: 2.55 secs, Memory: 25.00Mb
 
 将 Code Sniffer 与 PHP Storm 集成，可以使 IDE 实时显示代码的规范情况，提醒开发人员修改代码，长期使用，可以让开发人员养成非常规范的代码习惯。
 
-![ide](http://imgur.com/bl4kgYl.png)
+![ide](https://a.iya.ng/images/blog/bl4kgYl.png)
 
 如何配置？
 
 1. 为 PHPStorm 配置 Code Sniffer 路径：
-	![code-sniffer](http://imgur.com/X4rIc0e.png)
-	![code-sniffer](http://imgur.com/TdqQVfz.png)
+	![code-sniffer](https://a.iya.ng/images/blog/X4rIc0e.png)
+	![code-sniffer](https://a.iya.ng/images/blog/TdqQVfz.png)
 2. 设置 Inspections
 
 	选择合适的 Coding Standard
-	![](http://imgur.com/hLmHbZo.png)
+	![](https://a.iya.ng/images/blog/hLmHbZo.png)
 	
 ## 利用 GIT Hook 强制代码检查
 

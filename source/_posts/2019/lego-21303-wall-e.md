@@ -28,7 +28,7 @@ tags: [LEGO,乐高]
 从官网产品页得知，21303 Wall-E 已经绝版，线下专卖店更是不可能买到，好在有万能的某宝和上一节提到的“收藏家”，让我如愿以偿买到了这台绝版瓦力。
 
 ▼ 开箱前照
-![开箱前照](https://i.imgur.com/0bTad4p.png)
+![开箱前照](https://a.iya.ng/images/blog/0bTad4p.png)
 
 箱内是乐高零件（676片）、工具，以及一本说明书。需要注意的是，官方出品的第一代 Wall-E 产品脖子有设计缺陷，会导致头部失重变成歪脖子瓦力，不过后来出了官方补丁，修复了这一问题。大家在购买时请注意问清版本。
 
@@ -38,14 +38,14 @@ tags: [LEGO,乐高]
 [LEGO Wall-E official neck fix in action](https://www.youtube.com/watch?v=8pGMsBI2y-w)
 
 ▼ 献上一张成品照片，这可怜兮兮的眼神，生怕别人抢走了他的绿植，很有灵气。
-![成品1](https://i.imgur.com/bOEArRx.jpg)
+![成品1](https://a.iya.ng/images/blog/bOEArRx.jpg)
 
 # 摩托化 (Motorize)
 
 下一步是让瓦力动起来，注入活力。LEGO 专门提供了一套动力化组件 [PF (Power Function)](https://www.lego.com/en-us/themes/power-functions)，包含了一系列零件，如电源盒、马达、红外接收器、红外遥控器等。瓦力的摩托化很早就在社区中成熟地实践了，并有卖家将其形成套装包在网上售卖，在某宝上可以很容易买到，很省心。
 
 ▼ 如下是需要用到的部件（电源盒 x 1，M号马达 x 2，红外接收器 x 1，红外遥控器 x1，零件若干）
-![动力包零件](https://i.imgur.com/RZsqgOz.png)
+![动力包零件](https://a.iya.ng/images/blog/RZsqgOz.png)
 
 改装过程在网上有很多可供参考的视频，在这里提供两个，我作了参考，但并未完全参照，加入了自己的创意，这里不作赘述。大家可以自由发挥，这就是乐高的乐趣，充分发挥自己的想象力和创造性。
 
